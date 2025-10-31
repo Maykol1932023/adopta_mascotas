@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopta una Mascota</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🐾 Adopta una Mascota 🐾</h1>
+    </header>
+
+    <main>
+        <section class="mascotas">
+            <div class="card">
+                <img src="https://place-puppy.com/200x200" alt="Perrito">
+                <h3>Firulais</h3>
+                <img src="imagenes/firulay.jpg" alt=" ">
+
+                <p>Cariñoso, juguetón y busca un hogar.</p>
+                <button onclick="mostrarMensaje('Firulais')">Adoptar</button>
+            </div>
+
+            <div class="card">
+                <img src="https://placekitten.com/200/200" alt="Gatito">
+                <h3>Michi</h3>
+                <img src="imagenes/michi.jpg" alt="">
+                <p>Tranquilo, curioso y muy amoroso.</p>
+                <button onclick="mostrarMensaje('Michi')">Adoptar</button>
+            </div>
+        </section>
+
+        <section class="acciones">
+            <button id="btnColor" onclick="cambiarColorFondo()">Cambiar color de fondo</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Adopta una Mascota | Hecho por Maykol Choque</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
